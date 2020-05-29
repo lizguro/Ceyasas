@@ -1,0 +1,508 @@
+*{
+  padding: 0;
+  margin: 0;
+ }
+
+body{
+  background: linear-gradient(to top left, #f18326 0%, #c1c1c3 100%); ;
+}
+
+/*ESTILOS NAVEGADOR*/
+header{
+  background: #C1C1C3;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav div{
+  float: left;
+}
+
+nav div ul {
+  list-style: none;
+  overflow: hidden;
+  padding-top: 14px;
+}
+
+nav div ul li {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+nav div ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #f18326;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+ 
+nav div ul li:hover {
+  background: #F18326;
+}
+nav div ul li a:hover {
+  color: white;
+  text-shadow: black;
+}
+.navegador{
+  margin-left: 100px;
+}
+
+.logo{
+  width: 30%;
+  position: relative;
+  top: 2px;
+  left: 200px;
+  bottom: 2px;
+    
+}
+
+.logo > img {
+  width: 90px;
+  border-style: solid; }
+
+/*scroll*/
+.contenido {
+  padding-top: 80px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+/*ESTILOS CONOCENOS*/
+
+
+hr{
+  height: 8px;
+  background-color: black;
+}
+
+.box-1{
+  width: 60%;
+  list-style: none;
+  color: black;
+  background-color: #4b8ca8;
+  background-image: url(../imagenes/quienessomos.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 220px;
+  font-family: 'Laila', serif;
+  font-size: 16px;
+  text-align: justify;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+
+.box-2{
+  width: 44%;
+  float: right;
+  margin-top: -10rem;
+  list-style: none;
+  color: black;
+  background-color: #9d929c;
+  background-image: url(../imagenes/mision.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 250px;
+  font-family: 'Laila', serif;
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  
+}
+
+.box-3{
+  width: 35%;
+  position: absolute;
+  float: left;
+  margin-top: 15rem;
+  margin-left: 2rem;
+  list-style: none;
+  color: black;
+ background-color: #afd4e3;
+  background-image: url(../imagenes/vision.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 200px;
+  font-family: 'Laila', serif;
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+}
+
+#meetus{
+  margin-bottom: 45rem;
+}
+
+div > h3 {
+  text-shadow: 1.5px 1.5px black ;
+  color: #F18326; 
+  font-style: italic;
+  font-size: 1.8rem;
+  font-family: 'Lobster', cursive;
+  padding-bottom: 1.5rem;
+}
+
+/*ESTILOS SERVICIOS*/
+.content-services{
+  background: linear-gradient(to bottom right, #e01e26 0%, #f18326 100%);;
+  margin-bottom: 100px;
+}
+
+.title-services{
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #C1C1C3;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding-top: 2rem;
+}
+
+.content-description-services{
+  width: 100%;
+  display: flex;
+  margin-left: 5rem;
+  margin-bottom: 120px;
+}
+.content-description-services2{
+  width: 100%;
+  display: flex;
+  margin-left: 3rem;
+  margin-bottom: 310px;
+}
+
+div > ul{
+  display: block;
+  font-family: 'Laila', serif;
+  font-size: 21px;
+  text-align: justify;
+  list-style: none;
+   }
+
+.content1{
+  width: 50%;
+  background: rgb(252, 199, 182);
+  padding: 2rem;
+  border-radius: 1rem;
+  padding-right: 5rem;
+  }
+
+.content2{
+  width: 50%;
+  background: rgb(252, 199, 182);
+  padding: 2rem;
+  border-radius: 1rem;
+  padding-right: 5rem;
+  position: absolute;
+  margin-left: 20rem;
+}
+
+div > h4{
+  font-size: 1.8rem;
+  color: #F18326; 
+  text-shadow: 2px 2px #E01E26;
+  font-family: 'Montserrat', sans-serif;;
+  }
+
+div > img{
+  border-radius: 1rem;
+  border: 30px 30px rgb(255, 232, 129)  ;
+ 
+}
+
+.image-services{
+  position: absolute;
+  float: left;
+  margin-top: 5.5rem;
+  margin-left: -2.5rem;
+  border-style: groove;
+}
+
+.image-services1{
+  position: absolute;
+  float: left;
+  margin-top: 3.2rem;
+  margin-left: 3.2rem;
+  border-style: groove;
+}
+
+.cuadrado{
+  width: 300px; 
+  height: 250px; 
+  background: #C1C1C3;
+  position: absolute;
+  float: left;
+  border-radius: 1rem;
+  margin-top: 4.5rem;
+  margin-left: -3.5rem;
+  border-style: double;
+  
+}
+
+.cuadrado2{
+  width: 300px; 
+  height: 250px; 
+  background: #C1C1C3;
+  position: absolute;
+  float: left;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-style: double;
+}
+
+
+.cat-descrip{
+  list-style: square;
+  font-size: 1.1rem;
+  color: black;
+  margin-left: 2.5rem;
+}
+
+/*ESTILOS CLIENTES*/
+/*estilos banner*/
+
+#clientes-banner{
+  margin-bottom: 10%;
+}
+
+.clientes{
+  display: flex;
+  }
+#clientes-banner >  h1{
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  color: #E01E26;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  padding-bottom: 40px;
+}
+.tit_ban{
+  margin-left: 8%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10%;
+  padding-right: 3%;
+  font-family: 'Laila', serif;
+  color: #F18326;
+  text-shadow: 4px 4px black;
+ 
+}
+
+.mySlides {display:none}
+
+/*estilos gallery*/
+img {
+  /*vertical-align: middle;*/
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+/*ESTILOS FOOTER*/
+footer{
+  width: 100%;
+  background: #202020;
+  color: white;   
+  
+}
+
+#container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.colum1{
+  max-width: 400px;
+}
+
+.colum1 h1{
+  font-size: 22px;
+}
+
+.colum1 p{
+  font-size: 14px;
+  color: #C7C7C7;
+  margin-top: 20px;
+}
+
+.colum2{
+  max-width: 300px;
+  
+}
+
+.colum2 h1{
+  font-size: 22px;
+}
+
+.row3{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row3 img{
+  width: 36px;
+  height: 36px;
+}
+
+.row3 a{
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #C7C7C7;
+  text-decoration: none;
+}
+
+.colum3{
+  max-width: 300px;
+}
+
+.colum3 h1{
+  font-size: 22px;
+}
+
+.row2{
+  margin-top: 20px;
+  display: flex;
+}
+
+.row2 img{
+  width: 36px;
+  height: 36px;
+}
+
+.row2 label{
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 140px;
+}
+
+.container-footer{
+  width: 100%;  
+  background: #101010;
+}
+
+.footer{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;  
+  padding: 20px;
+}
+
+.copyright{
+  color: #C7C7C7;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.information a{
+  text-decoration: none;
+  color: #C7C7C7;
+}
+
+/*estilos prueba*/
