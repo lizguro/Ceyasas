@@ -10,6 +10,7 @@ body{
 /*ESTILOS NAVEGADOR*/
 header{
   background: #C1C1C3;
+  background-image: url(../imagenes/bg.png);
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -34,9 +35,10 @@ nav div ul li {
 nav div ul li a {
   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
   padding: 20px;
-  color: #f18326;
+  color: #C1C1C3;
   text-decoration: none;
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
+  text-decoration: white;
 }
  
 nav div ul li:hover {
@@ -72,6 +74,11 @@ nav div ul li a:hover {
   width: 80%;
   margin: auto;
   overflow:hidden;
+}
+.separador{
+  color:#C1C1C3;
+  padding-top: 18px;
+
 }
 
 /*ESTILOS CONOCENOS*/
@@ -275,12 +282,13 @@ div > img{
 /*estilos banner*/
 
 #clientes-banner{
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .clientes{
   display: flex;
   }
+
 #clientes-banner >  h1{
   font-family: 'Lobster', cursive;
   font-size: 70px;
@@ -293,7 +301,7 @@ div > img{
   margin-left: 8%;
   font-size: 30px;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 12%;
   padding-right: 3%;
   font-family: 'Laila', serif;
   color: #F18326;
@@ -301,21 +309,19 @@ div > img{
  
 }
 
-.mySlides {display:none}
+.mySlides {
+  display:none
+}
 
 /*estilos gallery*/
-img {
-  /*vertical-align: middle;*/
+.im-gal {
+  vertical-align: middle;
+  image-orientation: from-image;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
