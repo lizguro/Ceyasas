@@ -10,8 +10,7 @@ body{
 
 /*ESTILOS NAVEGADOR*/
 header{
-  background: #C1C1C3;
-  background-image: url(../imagenes/bg.png);
+  background: black;
   width: 100%;
   position: fixed;
   z-index: 100;
@@ -36,9 +35,8 @@ nav div ul li {
 nav div ul li a {
   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
   padding: 20px;
-  color: #C1C1C3;
+  color:  #F18326;
   text-decoration: none;
-  text-shadow: 2px 2px black;
   text-decoration: white;
 }
  
@@ -75,6 +73,7 @@ nav div ul li a:hover {
   width: 80%;
   margin: auto;
   overflow:hidden;
+ 
 }
 .separador{
   color:#C1C1C3;
@@ -181,14 +180,15 @@ div > h3 {
 .content-description-services{
   width: 100%;
   display: flex;
-  margin-left: 150px;
   margin-bottom: 120px;
+  
 }
 .content-description-services2{
   width: 100%;
   display: flex;
-  margin-left: 120px;
   margin-bottom: 310px;
+ 
+ 
 }
 
 div > ul{
@@ -205,6 +205,7 @@ div > ul{
   padding: 2rem;
   border-radius: 1rem;
   padding-right: 5rem;
+  margin-left: 150px;
   }
 
 .content2{
@@ -214,7 +215,7 @@ div > ul{
   border-radius: 1rem;
   padding-right: 5rem;
   position: absolute;
-  margin-left: 20rem;
+  margin-left: 400px;
 }
 
 div > h4{
@@ -242,7 +243,7 @@ div > img{
   position: absolute;
   float: left;
   margin-top: 3.2rem;
-  margin-left: 3.2rem;
+  margin-left: 125px;
   border-style: groove;
 }
 
@@ -267,7 +268,7 @@ div > img{
   float: left;
   border-radius: 1rem;
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 110px;
   border-style: double;
 }
 
@@ -279,16 +280,13 @@ div > img{
   margin-left: 2.5rem;
 }
 
+
 /*ESTILOS CLIENTES*/
 /*estilos banner*/
 
 #clientes{
   margin-bottom: 5%;
 }
-
-.client-ban{
-  display: flex;
-  }
 
 #clientes >  h1{
   font-family: 'Lobster', cursive;
@@ -299,22 +297,22 @@ div > img{
   padding-bottom: 40px;
 }
 .tit_ban{
-  margin-left: 8%;
-  font-size: 30px;
   text-align: center;
-  padding-top: 12%;
-  padding-right: 3%;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
   font-family: 'Laila', serif;
-  color: #F18326;
-  text-shadow: 4px 4px black;
+  font-size: 20px;
  
+}
+
+.w3-content{
+  padding-left: 15%;
 }
 
 .mybanner {
   display:none
 }
-
-
 
 /*estilos gallery*/
 .mySlides {
@@ -322,7 +320,7 @@ div > img{
 }
 .im-gal {
   vertical-align: middle;
-  padding-left: 5%;
+  padding-left: 7%;
     
 }
 
