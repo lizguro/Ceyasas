@@ -48,7 +48,7 @@ nav div ul li a:hover {
   text-shadow: black;
 }
 .navegador{
-  margin-left: 100px;
+  margin-left: 250px;
 }
 
 .logo{
@@ -180,13 +180,13 @@ div > h3 {
 .content-description-services{
   width: 100%;
   display: flex;
-  margin-bottom: 120px;
+  margin-bottom: 140px;
   
 }
 .content-description-services2{
   width: 100%;
   display: flex;
-  margin-bottom: 310px;
+  margin-bottom: 320px;
  }
 
 div > ul{
@@ -237,7 +237,7 @@ div > h4{
   position: absolute;
   float: left;
   margin-top: 3.2rem;
-  margin-left: 125px;
+  margin-left: 165px;
   border-style: groove;
   border-radius: 1rem;
   border: 30px 30px rgb(255, 232, 129)  ;
@@ -264,7 +264,7 @@ div > h4{
   float: left;
   border-radius: 1rem;
   margin-top: 2rem;
-  margin-left: 110px;
+  margin-left: 150px;
   border-style: double;
 }
 
@@ -307,6 +307,7 @@ div > h4{
   border-radius: 30px;
 }
 
+
 /*estilos gallery*/
 .mySlides {
   display:none
@@ -334,7 +335,7 @@ div > h4{
   position: absolute;
   top: 30%;
   width: auto;
-  padding: 16px;
+  padding: 30px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
@@ -398,7 +399,7 @@ div > h4{
 }
 
 #clientes-gallery{
-  margin-top: 5%;
+  padding-top: 5%;
 }
 
 /*ESTILOS FOOTER*/
